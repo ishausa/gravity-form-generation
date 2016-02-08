@@ -3,6 +3,7 @@
 __author__ = 'prasanna.venkatasubramanian'
 
 import sys
+import os
 from string import Template
 
 SINGLE_VENUE_TEMPLATE_FILENAMES = ["templates/TeacherLedIE_WoB_SingleVenue_Template.xml",
@@ -72,5 +73,9 @@ for template_filename in template_filenames:
         previous_content = Template(after_substitution)
 
     output_filename = generate_form_filename(template_filename, event_details_props)
+
+    if not os.path.exists(os.path.dirname(output_filename)):
+        os.makedirs(os.path.dirname(output_filename))
+
     with open(output_filename, "w") as form_file:
         form_file.write(after_substitution)
