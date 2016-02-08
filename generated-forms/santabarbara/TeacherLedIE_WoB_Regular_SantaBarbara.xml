@@ -1,0 +1,3245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.7.6">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Teacher Led IE - Santa Barbara - April 2016 - WoB]]></title>
+		<descriptionPlacement><![CDATA[above]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Register]]></text>
+			<conditionalLogic actionType="show" logicType="all">
+				<rules>
+					<rule fieldId="3" operator="isnot">
+						<value></value>
+					</rule>
+				</rules>
+			</conditionalLogic>
+		</button>
+		<fields>
+			<field id="131" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<!--<br><img src="http://www.innerengineering.com/ieo/eflyers/images/Register-Here.png" alt="Register Here">
+<font size="3", color="#FF7F00"><h4>TIMINGS:</h4></font>
+<ul style="padding-left: 30px;">
+           <p>
+             Thursday February 25: 6:30pm - 9:30pm<br>
+           Friday Febraury 26: 6:30pm - 9:30pm<br>
+           Saturday Febraury 27: 8:30am - 7:00pm<br>
+           Sunday Febraury 28: 7:30am - 7:00pm</p>
+
+
+<li>Vegetarian lunch provided on Saturday; Vegetarian breakfast &amp; lunch on Sunday.</li>
+	<li>Attendance for all sessions is required.</li>
+</ul>
+<br/>
+<font size="3", color="#FF7F00"><h4>VENUE:</h4></font>
+<ul style="padding-left: 30px;">
+           <p>Clarion Inn<br>
+           933. South Riverside Avenue<br>
+           Elmhurst, IL 60126.<br>
+           <a href="http://goo.gl/maps/3mYUJ">MAP</a> </p>
+</ul>
+<br/>
+<font size="3", color="#FF7F00"><h4>CONTACT:</h4></font>
+<ul style="padding-left: 30px;">
+           <p>Email: chicago@ishausa.org<br>
+           Phone: 630 233 ISHA (4742)</p>
+</ul>
+<br/>
+<font size="3", color="#FF7F00"><h4>PRICING:</h4></font>
+<ul style="padding-left: 30px;">
+<b><p>Program Fee: $325<br>
+Special price of $275 expires on March 06 2014</p></b>
+</ul>-->]]></content>
+				<label><![CDATA[HTML Block]]></label>
+			</field>
+			<field id="3" size="medium" type="select" enableChoiceValue="1">
+				<adminLabel><![CDATA[GeneralSeating]]></adminLabel>
+				<label><![CDATA[To begin registration choose the number of participants:]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Choose the number of participants]]></text>
+						<value></value>
+					</choice>
+					<choice>
+						<text><![CDATA[$275 for Single Participant (Special Pricing)]]></text>
+						<value><![CDATA[Myself]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[$550 for Group of 2 (Special Pricing)]]></text>
+						<value><![CDATA[Group of 2]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[$825 for Group of 3 (Special Pricing)]]></text>
+						<value><![CDATA[Group of 3]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[$1100 for Group of 4 (Special Pricing)]]></text>
+						<value><![CDATA[Group of 4]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[$1375 for Group of 5]]></text>
+						<value><![CDATA[Group of 5]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[$1650 for Group of 6]]></text>
+						<value><![CDATA[Group of 6]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[$1925 for Group of 7]]></text>
+						<value><![CDATA[Group of 7]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="4" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[Chicago1]]></adminLabel>
+				<label><![CDATA[Inner Engineering Single Participant - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="4.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="4.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="4.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$275.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="5" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[Chicago2]]></adminLabel>
+				<label><![CDATA[Inner Engineering GRP 2 - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="5.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="5.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="5.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$550.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="6" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[Chicago3]]></adminLabel>
+				<label><![CDATA[Inner Engineering GRP 3 - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="6.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="6.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="6.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$825.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="7" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[Chicago4]]></adminLabel>
+				<label><![CDATA[Inner Engineering GRP 4 - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="7.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="7.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="7.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$1,100.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="8" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[Chicago5]]></adminLabel>
+				<label><![CDATA[Inner Engineering GRP 5 - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="8.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="8.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="8.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$1,375.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="9" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[Chicago6]]></adminLabel>
+				<label><![CDATA[Inner Engineering GRP 6 - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="9.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="9.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="9.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$1,650.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="10" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[Chicago7]]></adminLabel>
+				<label><![CDATA[Inner Engineering GRP 7 - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="10.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="10.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="10.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$1,925.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="140" size="medium" type="coupon">
+				<label><![CDATA[Coupon]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="13" size="medium" type="text">
+				<adminLabel><![CDATA[Coupon Code]]></adminLabel>
+				<label><![CDATA[Coupon Code]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="82" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[Try a valid coupon code if discount is not applied]]></content>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[shundrede]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[snintyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[snintye]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[seightyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[seightye]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sseventyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sseventye]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[ssixtyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[ssixtye]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sfiftyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sfiftye]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sfortyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sfortye]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sthirtyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sthirtye]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[stwentyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[stwentye]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sfifteene]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[stene]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[sfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[STUDCHC]]></value>
+						</rule>
+						<rule fieldId="13" operator="isnot">
+							<value><![CDATA[SENRCHC]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="79" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 100]]></adminLabel>
+				<label><![CDATA[PROMO CODE 100]]></label>
+				<inputs>
+					<input id="79.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="79.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="79.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$100.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[shundrede]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="84" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 95]]></adminLabel>
+				<label><![CDATA[PROMO CODE 95]]></label>
+				<inputs>
+					<input id="84.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="84.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="84.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$95.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[snintyfivee]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="85" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 90]]></adminLabel>
+				<label><![CDATA[PROMO CODE 90]]></label>
+				<inputs>
+					<input id="85.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="85.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="85.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$90.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[snintye]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="86" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 85]]></adminLabel>
+				<label><![CDATA[PROMO CODE 85]]></label>
+				<inputs>
+					<input id="86.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="86.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="86.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$85.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[seightyfivee]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="87" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 80]]></adminLabel>
+				<label><![CDATA[PROMO CODE 80]]></label>
+				<inputs>
+					<input id="87.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="87.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="87.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$80.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[seightye]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="88" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 75]]></adminLabel>
+				<label><![CDATA[PROMO CODE 75]]></label>
+				<inputs>
+					<input id="88.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="88.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="88.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$75.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[sseventyfivee]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="89" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 70]]></adminLabel>
+				<label><![CDATA[PROMO CODE 70]]></label>
+				<inputs>
+					<input id="89.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="89.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="89.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$70.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[sseventye]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="90" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 65]]></adminLabel>
+				<label><![CDATA[PROMO CODE 65]]></label>
+				<inputs>
+					<input id="90.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="90.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="90.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$65.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[ssixtyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[65]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="81" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 60]]></adminLabel>
+				<label><![CDATA[PROMO CODE 60]]></label>
+				<inputs>
+					<input id="81.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="81.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="81.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$60.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[ssixtye]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="91" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 55]]></adminLabel>
+				<label><![CDATA[PROMO CODE 55]]></label>
+				<inputs>
+					<input id="91.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="91.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="91.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$55.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[sfiftyfivee]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="92" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 50]]></adminLabel>
+				<label><![CDATA[PROMO CODE 50]]></label>
+				<inputs>
+					<input id="92.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="92.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="92.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$50.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[sfiftye]]></value>
+						</rule>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[SENRCHC]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="93" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 45]]></adminLabel>
+				<label><![CDATA[PROMO CODE 45]]></label>
+				<inputs>
+					<input id="93.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="93.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="93.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$45.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[sfortyfivee]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="80" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 40]]></adminLabel>
+				<label><![CDATA[PROMO CODE 40]]></label>
+				<inputs>
+					<input id="80.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="80.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="80.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$40.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[sfortye]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="94" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 35]]></adminLabel>
+				<label><![CDATA[PROMO CODE 35]]></label>
+				<inputs>
+					<input id="94.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="94.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="94.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$35.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[sthirtyfivee]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="95" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 30]]></adminLabel>
+				<label><![CDATA[PROMO CODE 30]]></label>
+				<inputs>
+					<input id="95.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="95.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="95.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$30.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[sthirtye]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="96" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 25]]></adminLabel>
+				<label><![CDATA[PROMO CODE 25]]></label>
+				<inputs>
+					<input id="96.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="96.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="96.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$25.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[stwentyfivee]]></value>
+						</rule>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[STUDCHC]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="97" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 20]]></adminLabel>
+				<label><![CDATA[PROMO CODE 20]]></label>
+				<inputs>
+					<input id="97.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="97.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="97.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$20.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[stwentye]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="98" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 15]]></adminLabel>
+				<label><![CDATA[PROMO CODE 15]]></label>
+				<inputs>
+					<input id="98.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="98.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="98.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$15.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[sfifteene]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="99" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[PROMO CODE 10]]></adminLabel>
+				<label><![CDATA[PROMO CODE 10]]></label>
+				<inputs>
+					<input id="99.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="99.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="99.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[-$10.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="13" operator="is">
+							<value><![CDATA[stene]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="78" size="medium" type="total">
+				<label><![CDATA[Total]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="35" isRequired="1" size="medium" type="checkbox" enableChoiceValue="1">
+				<cssClass><![CDATA[gf_list_5col gf_list_height_25 ]]></cssClass>
+				<label><![CDATA[How did you hear about us?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Friend/Family]]></text>
+						<value><![CDATA[FF]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Online Ad]]></text>
+						<value><![CDATA[AD]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Online Search]]></text>
+						<value><![CDATA[SR]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Email]]></text>
+						<value><![CDATA[EB]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Isha Kriya]]></text>
+						<value><![CDATA[IK]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[News Article]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[YouTube Video]]></text>
+						<value><![CDATA[YT]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Isha Blog]]></text>
+						<value><![CDATA[BG]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Isha Presentation]]></text>
+						<value><![CDATA[IP]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Facebook]]></text>
+						<value><![CDATA[TB]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[E-Flyer]]></text>
+						<value><![CDATA[EF]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Blog TalkRadio]]></text>
+						<value><![CDATA[BR]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Other]]></text>
+						<value><![CDATA[OT]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="36" size="medium" type="checkbox" enableChoiceValue="1">
+				<cssClass><![CDATA[gf_list_3col gf_list_height_50]]></cssClass>
+				<label><![CDATA[Receive Email Communications]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Online Meditation with Sadhguru]]></text>
+						<value><![CDATA[ONLMED]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Sadhguru's daily message or message of the day.]]></text>
+						<value><![CDATA[MOTD]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Isha NewsLetter]]></text>
+						<value><![CDATA[NL]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="37" size="medium" type="checkbox" enableChoiceValue="1">
+				<label><![CDATA[Join our Online Community]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[YouTube Channel (featuring Sadhguru's talks, meditations, etc.)]]></text>
+						<value><![CDATA[YT]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Facebook (featuring quotes and articles of Sadhguru, Isha recipes, events, webinars, etc.)]]></text>
+						<value><![CDATA[FB]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="40" isRequired="1" size="medium" type="name">
+				<adminLabel><![CDATA[name1]]></adminLabel>
+				<label><![CDATA[Participant Name]]></label>
+				<inputs>
+					<input id="40.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="40.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="41" isRequired="1" noDuplicates="1" size="medium" type="email">
+				<adminLabel><![CDATA[email1]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Participant Email]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="42" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<adminLabel><![CDATA[phone1]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Participant Phone]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="43" isRequired="1" size="medium" type="address" addressType="international" hideAddress2="1">
+				<adminLabel><![CDATA[address1]]></adminLabel>
+				<label><![CDATA[Participant Address]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="43.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="43.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="43.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="43.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="43.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="43.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="121" isRequired="1" size="medium" type="radio">
+				<adminLabel><![CDATA[gender1]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half ]]></cssClass>
+				<label><![CDATA[Participant Gender]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Male]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Female]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="148" isRequired="1" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[location1]]></adminLabel>
+				<label><![CDATA[Participant Program Location]]></label>
+				<choices>
+					<choice isSelected="1">
+						<text><![CDATA[Santa Barbara Middle School, 1321 Alameda Padre Serra, Santa Barbara, CA 93103]]></text>
+						<value><![CDATA[wob_sbmiddleschool_santabarbara_7_apr_2016]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="44" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[credits1]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Participant Course Credits]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<value><![CDATA[CME]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<value><![CDATA[CEU]]></value>
+					</choice>
+					<choice isSelected="1">
+						<text><![CDATA[Not Applicable]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="141" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[CME1]]></adminLabel>
+				<label><![CDATA[CME Processing Fee - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="141.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="141.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="141.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$50.00]]></basePrice>
+				<conditionalLogic actionType="hide" logicType="any">
+					<rules>
+						<rule fieldId="44" operator="isnot">
+							<value><![CDATA[NA]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="45" isRequired="1" size="medium" type="name">
+				<adminLabel><![CDATA[name2]]></adminLabel>
+				<label><![CDATA[2nd Participant Name]]></label>
+				<inputs>
+					<input id="45.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="45.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="57" isRequired="1" noDuplicates="1" size="medium" type="email">
+				<adminLabel><![CDATA[email2]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[2nd Participant Email]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="63" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<adminLabel><![CDATA[phone2]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[2nd Participant Phone]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="71" isRequired="1" size="medium" type="address" addressType="international" hideAddress2="1">
+				<adminLabel><![CDATA[address2]]></adminLabel>
+				<label><![CDATA[2nd Participant Address]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="71.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="71.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="71.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="71.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="71.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="71.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="122" isRequired="1" size="medium" type="radio">
+				<adminLabel><![CDATA[gender2]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half ]]></cssClass>
+				<label><![CDATA[2nd Participant Gender]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Male]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Female]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="149" isRequired="1" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[location2]]></adminLabel>
+				<label><![CDATA[2nd Participant Program Location]]></label>
+				<choices>
+					<choice isSelected="1">
+						<text><![CDATA[Santa Barbara Middle School, 1321 Alameda Padre Serra, Santa Barbara, CA 93103]]></text>
+						<value><![CDATA[wob_sbmiddleschool_santabarbara_7_apr_2016]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="51" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[credits2]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[2nd Participant Course Credits]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<value><![CDATA[CME]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<value><![CDATA[CEU]]></value>
+					</choice>
+					<choice isSelected="1">
+						<text><![CDATA[Not Applicable]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="142" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[CME2]]></adminLabel>
+				<label><![CDATA[CME Processing Fee - 2nd Participant - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="142.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="142.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="142.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$50.00]]></basePrice>
+				<conditionalLogic actionType="hide" logicType="any">
+					<rules>
+						<rule fieldId="51" operator="isnot">
+							<value><![CDATA[NA]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="46" isRequired="1" size="medium" type="name">
+				<adminLabel><![CDATA[name3]]></adminLabel>
+				<label><![CDATA[3rd Participant Name]]></label>
+				<inputs>
+					<input id="46.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="46.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="58" isRequired="1" noDuplicates="1" size="medium" type="email">
+				<adminLabel><![CDATA[email3]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[3rd Participant Email]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="64" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<adminLabel><![CDATA[phone3]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[3rd Participant Phone]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="72" isRequired="1" size="medium" type="address" addressType="international" hideAddress2="1">
+				<adminLabel><![CDATA[address3]]></adminLabel>
+				<label><![CDATA[3rd Participant Address]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="72.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="72.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="72.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="72.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="72.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="72.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="123" isRequired="1" size="medium" type="radio">
+				<adminLabel><![CDATA[gender3]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[3rd Participant Gender]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Male]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Female]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="150" isRequired="1" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[location3]]></adminLabel>
+				<label><![CDATA[3rd Participant Program Location]]></label>
+				<choices>
+					<choice isSelected="1">
+						<text><![CDATA[Santa Barbara Middle School, 1321 Alameda Padre Serra, Santa Barbara, CA 93103]]></text>
+						<value><![CDATA[wob_sbmiddleschool_santabarbara_7_apr_2016]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="52" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[credits3]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[3rd Participant Course Credits]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<value><![CDATA[CME]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<value><![CDATA[CEU]]></value>
+					</choice>
+					<choice isSelected="1">
+						<text><![CDATA[Not Applicable]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="143" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[CME3]]></adminLabel>
+				<label><![CDATA[CME Processing Fee - 3rd Participant - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="143.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="143.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="143.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$50.00]]></basePrice>
+				<conditionalLogic actionType="hide" logicType="any">
+					<rules>
+						<rule fieldId="52" operator="isnot">
+							<value><![CDATA[NA]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="47" isRequired="1" size="medium" type="name">
+				<adminLabel><![CDATA[name4]]></adminLabel>
+				<label><![CDATA[4th Participant Name]]></label>
+				<inputs>
+					<input id="47.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="47.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="59" isRequired="1" noDuplicates="1" size="medium" type="email">
+				<adminLabel><![CDATA[email4]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[4th Participant Email]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="65" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<adminLabel><![CDATA[phone4]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[4th Participant Phone]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="73" isRequired="1" size="medium" type="address" addressType="international" hideAddress2="1">
+				<adminLabel><![CDATA[address4]]></adminLabel>
+				<label><![CDATA[4th Participant Address]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="73.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="73.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="73.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="73.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="73.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="73.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="124" isRequired="1" size="medium" type="radio">
+				<adminLabel><![CDATA[gender4]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[4th Participant Gender]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Male]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Female]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="151" isRequired="1" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[location4]]></adminLabel>
+				<label><![CDATA[4th Participant Program Location]]></label>
+				<choices>
+					<choice isSelected="1">
+						<text><![CDATA[Santa Barbara Middle School, 1321 Alameda Padre Serra, Santa Barbara, CA 93103]]></text>
+						<value><![CDATA[wob_sbmiddleschool_santabarbara_7_apr_2016]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="53" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[credits4]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[4th Participant Course Credits]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<value><![CDATA[CME]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<value><![CDATA[CEU]]></value>
+					</choice>
+					<choice isSelected="1">
+						<text><![CDATA[Not Applicable]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="144" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[CME4]]></adminLabel>
+				<label><![CDATA[CME Processing Fee - 4th Participant - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="144.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="144.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="144.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$50.00]]></basePrice>
+				<conditionalLogic actionType="hide" logicType="any">
+					<rules>
+						<rule fieldId="53" operator="isnot">
+							<value><![CDATA[NA]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="77" isRequired="1" size="medium" type="name">
+				<adminLabel><![CDATA[name5]]></adminLabel>
+				<label><![CDATA[5th Participant Name]]></label>
+				<inputs>
+					<input id="77.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="77.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="60" isRequired="1" noDuplicates="1" size="medium" type="email">
+				<adminLabel><![CDATA[email5]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[5th Participant Email]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="66" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<adminLabel><![CDATA[phone5]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[5th Participant Phone]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="74" isRequired="1" size="medium" type="address" addressType="international" hideAddress2="1">
+				<adminLabel><![CDATA[address5]]></adminLabel>
+				<label><![CDATA[5th Participant Address]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="74.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="74.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="74.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="74.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="74.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="74.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="125" isRequired="1" size="medium" type="radio">
+				<adminLabel><![CDATA[gender5]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[5th Participant Gender]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Male]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Female]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="152" isRequired="1" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[location5]]></adminLabel>
+				<label><![CDATA[5th Participant Program Location]]></label>
+				<choices>
+					<choice isSelected="1">
+						<text><![CDATA[Santa Barbara Middle School, 1321 Alameda Padre Serra, Santa Barbara, CA 93103]]></text>
+						<value><![CDATA[wob_sbmiddleschool_santabarbara_7_apr_2016]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="54" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[credits5]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[5th Participant Course Credits]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<value><![CDATA[CME]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<value><![CDATA[CEU]]></value>
+					</choice>
+					<choice isSelected="1">
+						<text><![CDATA[Not Applicable]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="145" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[CME5]]></adminLabel>
+				<label><![CDATA[CME Processing Fee - 5th Participant - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="145.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="145.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="145.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$50.00]]></basePrice>
+				<conditionalLogic actionType="hide" logicType="any">
+					<rules>
+						<rule fieldId="54" operator="isnot">
+							<value><![CDATA[NA]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="49" isRequired="1" size="medium" type="name">
+				<adminLabel><![CDATA[name6]]></adminLabel>
+				<label><![CDATA[6th Participant Name]]></label>
+				<inputs>
+					<input id="49.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="49.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="61" isRequired="1" noDuplicates="1" size="medium" type="email">
+				<adminLabel><![CDATA[email6]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[6th Participant Email]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="67" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<adminLabel><![CDATA[phone6]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[6th Participant Phone]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="75" isRequired="1" size="medium" type="address" addressType="international" hideAddress2="1">
+				<adminLabel><![CDATA[address6]]></adminLabel>
+				<label><![CDATA[6th Participant Address]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="75.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="75.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="75.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="75.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="75.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="75.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="126" isRequired="1" size="medium" type="radio">
+				<adminLabel><![CDATA[gender6]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[6th Participant Gender]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Male]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Female]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="153" isRequired="1" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[location6]]></adminLabel>
+				<label><![CDATA[6th Participant Program Location]]></label>
+				<choices>
+					<choice isSelected="1">
+						<text><![CDATA[Santa Barbara Middle School, 1321 Alameda Padre Serra, Santa Barbara, CA 93103]]></text>
+						<value><![CDATA[wob_sbmiddleschool_santabarbara_7_apr_2016]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="55" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[credits6]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[6th Participant Course Credits]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<value><![CDATA[CME]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<value><![CDATA[CEU]]></value>
+					</choice>
+					<choice isSelected="1">
+						<text><![CDATA[Not Applicable]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="146" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[CME6]]></adminLabel>
+				<label><![CDATA[CME Processing Fee - 6th Participant - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="146.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="146.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="146.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$50.00]]></basePrice>
+				<conditionalLogic actionType="hide" logicType="any">
+					<rules>
+						<rule fieldId="55" operator="isnot">
+							<value><![CDATA[NA]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="50" isRequired="1" size="medium" type="name">
+				<adminLabel><![CDATA[name7]]></adminLabel>
+				<label><![CDATA[7th Participant Name]]></label>
+				<inputs>
+					<input id="50.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="50.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="62" isRequired="1" noDuplicates="1" size="medium" type="email">
+				<adminLabel><![CDATA[email7]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[7th Participant Email]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="68" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<adminLabel><![CDATA[phone7]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[7th Participant Phone]]></label>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="76" isRequired="1" size="medium" type="address" addressType="international" hideAddress2="1">
+				<adminLabel><![CDATA[address7]]></adminLabel>
+				<label><![CDATA[7th Participant Address]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="76.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="76.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="76.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="76.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="76.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="76.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="127" isRequired="1" size="medium" type="radio">
+				<adminLabel><![CDATA[gender7]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[7th Participant Gender]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Male]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Female]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="154" isRequired="1" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[location7]]></adminLabel>
+				<label><![CDATA[7th Participant Program Location]]></label>
+				<choices>
+					<choice isSelected="1">
+						<text><![CDATA[Santa Barbara Middle School, 1321 Alameda Padre Serra, Santa Barbara, CA 93103]]></text>
+						<value><![CDATA[wob_sbmiddleschool_santabarbara_7_apr_2016]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="56" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[credits7]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[7th Participant Course Credits]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<value><![CDATA[CME]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<value><![CDATA[CEU]]></value>
+					</choice>
+					<choice isSelected="1">
+						<text><![CDATA[Not Applicable]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="147" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[CME7]]></adminLabel>
+				<label><![CDATA[CME Processing Fee - 7th Participant - Santa Barbara, April 2016]]></label>
+				<inputs>
+					<input id="147.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="147.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="147.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$50.00]]></basePrice>
+				<conditionalLogic actionType="hide" logicType="any">
+					<rules>
+						<rule fieldId="56" operator="isnot">
+							<value><![CDATA[NA]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule fieldId="3" operator="isnot">
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="129" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<div>
+	<strong>Terms &amp; Conditions :&nbsp;</strong></div>
+<ul>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:13px;">One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">I am at least 14 years and above.</span></span><br />
+		&nbsp;</li>
+</ul>
+<div>
+	<strong>Cancellation / Refund Policy:&nbsp;</strong></div>
+<ul>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">75% of the total program fee paid amount will be deducted for cancellation from the program date and there after.</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.&nbsp;</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">Refund processing time is 3-4 weeks.</span></span></li>
+</ul><br />
+
+<u><strong><a href="https://www.innerengineering.com/live/terms-and-condition" target="_blank"><span style="color:#0000cd;">Click here to read the complete agreement.</span></a></strong></u>]]></content>
+				<cssClass><![CDATA[gf_scroll_text gf_list_height_25]]></cssClass>
+				<label><![CDATA[Terms]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="120" isRequired="1" size="medium" type="checkbox">
+				<label><![CDATA[Terms and condition agreement]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I agree to the above terms and conditions]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="11" size="medium" type="total">
+				<label><![CDATA[Total]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="12" isRequired="1" size="medium" type="creditcard">
+				<cssClass><![CDATA[gf_list_height_50]]></cssClass>
+				<label><![CDATA[Credit Card]]></label>
+				<inputs>
+					<input id="12.1">
+						<label><![CDATA[Card Number]]></label>
+					</input>
+					<input id="12.2">
+						<label><![CDATA[Expiration Date]]></label>
+					</input>
+					<input id="12.3">
+						<label><![CDATA[Security Code]]></label>
+					</input>
+					<input id="12.4">
+						<label><![CDATA[Card Type]]></label>
+					</input>
+					<input id="12.5">
+						<label><![CDATA[Cardholder's Name]]></label>
+					</input>
+				</inputs>
+				<creditCards>
+					<creditCard><![CDATA[amex]]></creditCard>
+					<creditCard><![CDATA[visa]]></creditCard>
+					<creditCard><![CDATA[discover]]></creditCard>
+					<creditCard><![CDATA[mastercard]]></creditCard>
+				</creditCards>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="134" size="medium" type="hidden">
+				<defaultValue><![CDATA[4/7/2016]]></defaultValue>
+				<label><![CDATA[Start Date]]></label>
+			</field>
+			<field id="135" size="medium" type="hidden">
+				<defaultValue><![CDATA[4/10/2016]]></defaultValue>
+				<label><![CDATA[End Date]]></label>
+			</field>
+			<field id="130" size="medium" type="hidden">
+				<defaultValue><![CDATA[tlie_sb_7_April_2016]]></defaultValue>
+				<label><![CDATA[tlie_sb_7_April_2016]]></label>
+			</field>
+		</fields>
+		<confirmations>
+			<confirmation id="51df73871b9e2" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[<div style="text-align: center;">
+	<strong>You are successfully registered. Expect a confirmation email shortly for each registered participant.</strong></div>
+<div style="text-align: center;">
+	<br />
+	If you did not receive a payment confirmation email, please check your spam folder or contact <a href="mailto:santabarbara@ishausa.org" target="_top">santabarbara@ishausa.org</a>.</div>
+<div style="text-align: center;">
+	 </div>
+<div style="text-align: center;">
+	Regards,</div>
+<div style="text-align: center;">
+	Inner Engineering Registration Team</div>
+<div style="text-align: center;">
+	 </div>
+<div style="text-align: center;">
+	Click here to <a href="http://www.innerengineering.com/live" target="_self">Continue</a></div>]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="51e30447b6702">
+				<name><![CDATA[General-SingleReg]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<to><![CDATA[{email1:41},santabarbara@ishausa.org]]></to>
+				<toType><![CDATA[email]]></toType>
+				<bcc><![CDATA[santabarbara@ishausa.org]]></bcc>
+				<subject><![CDATA[Welcome to Inner Engineering 4-Day Program: Santa Barbara, USA April 7 - 10, 2016]]></subject>
+				<message><![CDATA[Dear {name1 (First):40.3},
+
+We look forward to having you at the upcoming Inner Engineering program. Please find information you’ll need below.
+
+<strong>Program Information :</strong>
+Program Name : 4 Day Inner Engineering program - Santa Barbara, USA April 7 - 10, 2016
+Program Date : April 7th - 10th, 2016
+
+Thursday, April 7, 2016 : Check-in 6.00 PM, Class from 6.30 PM - 9.30 PM
+Friday, April 8, 2016  : 6.30 PM - 9.30 PM
+Saturday, April 9, 2016 : 8.30 AM - 7.00 PM
+Sunday, April 10, 2016: 7.30 AM - 7.00 PM
+
+<strong>Venue : {location1:148}
+</strong>
+
+<a href="https://www.google.com/maps/?q={location1:148}">View on map</a>
+
+<strong>Total Paid Amount: {Total:11}</strong>
+
+Payment Confirmation # : <strong>{txn_id}</strong>
+
+<strong>Participant Information</strong>
+
+{name1 (First):40.3} {name1 (Last):40.6}
+Gender : {gender1:121}
+Phone: {phone1:42}  Email: {email1:41}
+Address : {address1 (Street Address):43.1}
+{address1 (City):43.3}, {address1 (State / Province):43.4}, {address1 (ZIP / Postal Code):43.5}, {address1 (Country):43.6}
+
+For your convenience, you can email us if there are any changes to the above information. This will make your check-in process faster on the day of the program. Your ID card is needed  to complete check-in.
+
+For group registrations, each participant registered will receive a separate confirmation email to the email id provided for them.
+
+<strong>General Information : </strong>
+<ul>
+	<li>Attendance for all sessions is required</li>
+	<li>Vegetarian lunch provided on Saturday. Vegetarian breakfast &amp; lunch provided on Sunday</li>
+	<li>Wear loose fitting and comfortable clothing</li>
+	<li>Bring a yoga mat or cloth-mat to sit on</li>
+	<li>You can bring a cushion if needed to sit comfortably on the floor</li>
+	<li>Please allow additional time for traffic delays, find parking and complete check-in formalities before the program begins</li>
+</ul>
+<strong>Terms &amp; Conditions : </strong>
+<ul>
+	<li>One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</li>
+	<li>I am at least 14 years or above.</li>
+</ul>
+<strong>Refund/Cancellation Policy:</strong>
+
+USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.
+50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.
+75% of the total  program fee paid amount will be deducted for cancellation from the program date and there after.
+Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.
+Refund processing time is 3-4 weeks.
+
+If you have any questions regarding your registration, feel free to contact us at santabarbara@ishausa.org or 805-399-2345
+
+Thank you,
+Inner Engineering Registration Team]]></message>
+				<from><![CDATA[santabarbara@ishausa.org]]></from>
+				<fromName><![CDATA[Inner Engineering]]></fromName>
+				<replyTo><![CDATA[santabarbara@ishausa.org]]></replyTo>
+				<conditionalLogic>
+					<actionType><![CDATA[show]]></actionType>
+					<logicType><![CDATA[any]]></logicType>
+					<rules>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Myself]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</notification>
+			<notification id="51f982dc1dea6">
+				<name><![CDATA[General - grp 2]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<to><![CDATA[{email2:57},santabarbara@ishausa.org]]></to>
+				<toType><![CDATA[email]]></toType>
+				<bcc><![CDATA[santabarbara@ishausa.org]]></bcc>
+				<subject><![CDATA[Welcome to Inner Engineering 4-Day Program: Santa Barbara, USA April 7 - 10, 2016]]></subject>
+				<message><![CDATA[Dear {name2 (First):45.3},
+
+We look forward to having you at the upcoming Inner Engineering program. Please find information you’ll need below.
+
+<strong>Program Information :</strong>
+Program Name : 4 Day Inner Engineering program - Santa Barbara, USA April 7 - 10, 2016
+Program Date : April 7th - 10th, 2016
+
+Thursday, April 7, 2016 : Check-in 6.00 PM, Class from 6.30 PM - 9.30 PM
+Friday, April 8, 2016  : 6.30 PM - 9.30 PM
+Saturday, April 9, 2016 : 8.30 AM - 7.00 PM
+Sunday, April 10, 2016: 7.30 AM - 7.00 PM
+
+<strong>Venue : {location2:149}</strong>
+
+<a href="https://www.google.com/maps/?q={location2:149}">View on map</a>
+
+<strong>Total group payment: {Total:11}</strong>
+
+<strong>Group Payment Confirmation #</strong> : <strong>{txn_id}</strong>
+
+<strong>Participant Information</strong>
+
+{name2 (First):45.3} {name2 (Last):45.6}
+Gender : {gender2:122}
+Phone: {phone2:63}  Email: {email2:57}
+Address : {address2 (Street Address):71.1}
+{address2 (City):71.3}, {address2 (State / Province):71.4}, {address2 (ZIP / Postal Code):71.5}, {address2 (Country):71.6}
+
+For your convenience, you can email us if there are any changes to the above information. This will make your check-in process faster on the day of the program. Your ID card is needed  to complete check-in.
+
+For group registrations, each participant registered will receive a separate confirmation email to the email id provided for them.
+
+<strong>General Information : </strong>
+<ul>
+	<li>Attendance for all sessions is required</li>
+	<li>Vegetarian lunch provided on Saturday. Vegetarian breakfast &amp; lunch provided on Sunday</li>
+	<li>Wear loose fitting and comfortable clothing</li>
+	<li>Bring a yoga mat or cloth-mat to sit on</li>
+	<li>You can bring a cushion if needed to sit comfortably on the floor</li>
+	<li>Please allow additional time for traffic delays, find parking and complete check-in formalities before the program begins</li>
+</ul>
+<strong>Terms &amp; Conditions : </strong>
+<ul>
+	<li>One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</li>
+	<li>I am at least 14 years or above.</li>
+</ul>
+<strong>Refund/Cancellation Policy:</strong>
+
+USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.
+50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.
+75% of the total  program fee paid amount will be deducted for cancellation from the program date and there after.
+Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.
+Refund processing time is 3-4 weeks.
+
+If you have any questions regarding your registration, feel free to contact us at santabarbara@ishausa.org or 805-399-2345
+
+Thank you,
+Inner Engineering Registration Team]]></message>
+				<from><![CDATA[santabarbara@ishausa.org]]></from>
+				<fromName><![CDATA[Inner Engineering]]></fromName>
+				<replyTo><![CDATA[santabarbara@ishausa.org]]></replyTo>
+				<conditionalLogic>
+					<actionType><![CDATA[show]]></actionType>
+					<logicType><![CDATA[any]]></logicType>
+					<rules>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 2]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</notification>
+			<notification id="51f9d7829d30a">
+				<name><![CDATA[General - grp 4]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<to><![CDATA[{email4:59},santabarbara@ishausa.org]]></to>
+				<toType><![CDATA[email]]></toType>
+				<bcc><![CDATA[santabarbara@ishausa.org]]></bcc>
+				<subject><![CDATA[Welcome to Inner Engineering 4-Day Program: Santa Barbara, USA April 7 - 10, 2016]]></subject>
+				<message><![CDATA[Dear {name4 (First):47.3},
+
+We look forward to having you at the upcoming Inner Engineering program. Please find information you’ll need below.
+
+<strong>Program Information :</strong>
+Program Name : 4 Day Inner Engineering program - Santa Barbara, USA April 7 - 10, 2016
+Program Date : April 7th - 10th, 2016
+
+Thursday, April 7, 2016 : Check-in 6.00 PM, Class from 6.30 PM - 9.30 PM
+Friday, April 8, 2016  : 6.30 PM - 9.30 PM
+Saturday, April 9, 2016 : 8.30 AM - 7.00 PM
+Sunday, April 10, 2016: 7.30 AM - 7.00 PM
+
+<strong>Venue : {location4:151}</strong>
+
+<a href="https://www.google.com/maps/?q={location4:151}">View on map</a>
+
+<strong></strong><strong>Total group payment: {Total:11}</strong>
+
+<strong><strong>Group </strong>Payment Confirmation #</strong> : <strong>{txn_id}</strong>
+
+<strong>Participant Information</strong>
+
+{name4 (First):47.3} {name4 (Last):47.6}
+Gender : {gender4:124}
+Phone: {phone4:65}  Email:{email4:59}
+Address: {address4 (Street Address):73.1}
+{address4 (City):73.3}, {address4 (State / Province):73.4}, {address4 (ZIP / Postal Code):73.5}, {address4 (Country):73.6}
+
+For your convenience, you can email us if there are any changes to the above information. This will make your check-in process faster on the day of the program. Your ID card is needed  to complete check-in.
+
+For group registrations, each participant registered will receive a separate confirmation email to the email id provided for them.
+
+<strong>General Information : </strong>
+<ul>
+	<li>Attendance for all sessions is required</li>
+	<li>Vegetarian lunch provided on Saturday. Vegetarian breakfast &amp; lunch provided on Sunday</li>
+	<li>Wear loose fitting and comfortable clothing</li>
+	<li>Bring a yoga mat or cloth-mat to sit on</li>
+	<li>You can bring a cushion if needed to sit comfortably on the floor</li>
+	<li>Please allow additional time for traffic delays, find parking and complete check-in formalities before the program begins</li>
+</ul>
+<strong>Terms &amp; Conditions : </strong>
+<ul>
+	<li>One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</li>
+	<li>I am at least 14 years or above.</li>
+</ul>
+<strong>Refund/Cancellation Policy:</strong>
+
+USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.
+50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.
+75% of the total  program fee paid amount will be deducted for cancellation from the program date and there after.
+Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.
+Refund processing time is 3-4 weeks.
+
+If you have any questions regarding your registration, feel free to contact us at santabarbara@ishausa.org or 805-399-2345
+
+Thank you,
+Inner Engineering Registration Team]]></message>
+				<from><![CDATA[santabarbara@ishausa.org]]></from>
+				<fromName><![CDATA[Inner Engineering]]></fromName>
+				<replyTo><![CDATA[santabarbara@ishausa.org]]></replyTo>
+				<conditionalLogic>
+					<actionType><![CDATA[show]]></actionType>
+					<logicType><![CDATA[any]]></logicType>
+					<rules>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</notification>
+			<notification id="51f9d9c0b0102">
+				<name><![CDATA[General - grp 5]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<to><![CDATA[{email5:60},santabarbara@ishausa.org]]></to>
+				<toType><![CDATA[email]]></toType>
+				<bcc><![CDATA[santabarbara@ishausa.org]]></bcc>
+				<subject><![CDATA[Welcome to Inner Engineering 4-Day Program: Santa Barbara, USA April 7 - 10, 2016]]></subject>
+				<message><![CDATA[Dear {name5 (First):77.3},
+
+We look forward to having you at the upcoming Inner Engineering program. Please find information you’ll need below.
+
+<strong>Program Information :</strong>
+Program Name : 4 Day Inner Engineering program - Santa Barbara, USA April 7 - 10, 2016
+Program Date : April 7th - 10th, 2016
+
+Thursday, April 7, 2016 : Check-in 6.00 PM, Class from 6.30 PM - 9.30 PM
+Friday, April 8, 2016  : 6.30 PM - 9.30 PM
+Saturday, April 9, 2016 : 8.30 AM - 7.00 PM
+Sunday, April 10, 2016: 7.30 AM - 7.00 PM
+
+<strong>Venue : {location5:152}</strong>
+
+<a href="https://www.google.com/maps/?q={location5:152}">View on map</a>
+
+<strong>Total group payment: {Total:11}</strong>
+
+<strong><strong>Group </strong>Payment Confirmation #</strong> : <strong>{txn_id}</strong>
+
+<strong>Participant Information</strong>
+
+{name5 (First):77.3} {name5 (Last):77.6}
+Gender : {gender5:125}
+Phone: {phone5:66}  Email: {email5:60}
+Address: {address5 (Street Address):74.1}
+{address5 (City):74.3}, {address5 (State / Province):74.4}, {address5 (ZIP / Postal Code):74.5}, {address5 (Country):74.6}
+
+For your convenience, you can email us if there are any changes to the above information. This will make your check-in process faster on the day of the program. Your ID card is needed  to complete check-in.
+
+For group registrations, each participant registered will receive a separate confirmation email to the email id provided for them.
+
+<strong>General Information : </strong>
+<ul>
+	<li>Attendance for all sessions is required</li>
+	<li>Vegetarian lunch provided on Saturday. Vegetarian breakfast &amp; lunch provided on Sunday</li>
+	<li>Wear loose fitting and comfortable clothing</li>
+	<li>Bring a yoga mat or cloth-mat to sit on</li>
+	<li>You can bring a cushion if needed to sit comfortably on the floor</li>
+	<li>Please allow additional time for traffic delays, find parking and complete check-in formalities before the program begins</li>
+</ul>
+<strong>Terms &amp; Conditions : </strong>
+<ul>
+	<li>One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</li>
+	<li>I am at least 14 years or above.</li>
+</ul>
+<strong>Refund/Cancellation Policy:</strong>
+
+USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.
+50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.
+75% of the total  program fee paid amount will be deducted for cancellation from the program date and there after.
+Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.
+Refund processing time is 3-4 weeks.
+
+If you have any questions regarding your registration, feel free to contact us at santabarbara@ishausa.org or 805-399-2345
+
+Thank you,
+Inner Engineering Registration Team]]></message>
+				<from><![CDATA[santabarbara@ishausa.org]]></from>
+				<fromName><![CDATA[Inner Engineering]]></fromName>
+				<replyTo><![CDATA[santabarbara@ishausa.org]]></replyTo>
+				<conditionalLogic>
+					<actionType><![CDATA[show]]></actionType>
+					<logicType><![CDATA[any]]></logicType>
+					<rules>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</notification>
+			<notification id="51f9dbd4dcc8f">
+				<name><![CDATA[General - grp 6]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<to><![CDATA[{email6:61},santabarbara@ishausa.org]]></to>
+				<toType><![CDATA[email]]></toType>
+				<bcc><![CDATA[santabarbara@ishausa.org]]></bcc>
+				<subject><![CDATA[Welcome to Inner Engineering 4-Day Program: Santa Barbara, USA April 7 - 10, 2016]]></subject>
+				<message><![CDATA[Dear {name6 (First):49.3},
+
+We look forward to having you at the upcoming Inner Engineering program. Please find information you’ll need below.
+
+<strong>Program Information :</strong>
+Program Name : 4 Day Inner Engineering program - Santa Barbara, USA April 7 - 10, 2016
+Program Date : April 7th - 10th, 2016
+
+Thursday, April 7, 2016 : Check-in 6.00 PM, Class from 6.30 PM - 9.30 PM
+Friday, April 8, 2016  : 6.30 PM - 9.30 PM
+Saturday, April 9, 2016 : 8.30 AM - 7.00 PM
+Sunday, April 10, 2016: 7.30 AM - 7.00 PM
+
+<strong>Venue : {location6:153}</strong>
+
+<a href="https://www.google.com/maps/?q={location6:153}">View on map</a>
+
+<strong>Total group payment: {Total:11}</strong>
+
+<strong>Group Payment Confirmation #</strong> : <strong>{txn_id}</strong>
+
+<strong>Participant Information</strong>
+
+{name6 (First):49.3} {name6 (Last):49.6}
+Gender : {gender6:126}
+Phone: {phone6:67}  Email:{email6:61}
+Address : {address6 (Street Address):75.1}
+{address6 (City):75.3}, {address6 (State / Province):75.4}, {address6 (ZIP / Postal Code):75.5}, {address3 (Country):72.6}
+
+For your convenience, you can email us if there are any changes to the above information. This will make your check-in process faster on the day of the program. Your ID card is needed  to complete check-in.
+
+For group registrations, each participant registered will receive a separate confirmation email to the email id provided for them.
+
+<strong>General Information : </strong>
+<ul>
+	<li>Attendance for all sessions is required</li>
+	<li>Vegetarian lunch provided on Saturday. Vegetarian breakfast &amp; lunch provided on Sunday</li>
+	<li>Wear loose fitting and comfortable clothing</li>
+	<li>Bring a yoga mat or cloth-mat to sit on</li>
+	<li>You can bring a cushion if needed to sit comfortably on the floor</li>
+	<li>Please allow additional time for traffic delays, find parking and complete check-in formalities before the program begins</li>
+</ul>
+<strong>Terms &amp; Conditions : </strong>
+<ul>
+	<li>One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</li>
+	<li>I am at least 14 years or above.</li>
+</ul>
+<strong>Refund/Cancellation Policy:</strong>
+
+USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.
+50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.
+75% of the total  program fee paid amount will be deducted for cancellation from the program date and there after.
+Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.
+Refund processing time is 3-4 weeks.
+
+If you have any questions regarding your registration, feel free to contact us at santabarbara@ishausa.org or 805-399-2345
+
+Thank you,
+Inner Engineering Registration Team]]></message>
+				<from><![CDATA[santabarbara@ishausa.org]]></from>
+				<fromName><![CDATA[Inner Engineering]]></fromName>
+				<replyTo><![CDATA[santabarbara@ishausa.org]]></replyTo>
+				<conditionalLogic>
+					<actionType><![CDATA[show]]></actionType>
+					<logicType><![CDATA[any]]></logicType>
+					<rules>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</notification>
+			<notification id="51f9dd199dcc9">
+				<name><![CDATA[General - grp 7]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<to><![CDATA[{email7:62},santabarbara@ishausa.org]]></to>
+				<toType><![CDATA[email]]></toType>
+				<bcc><![CDATA[santabarbara@ishausa.org]]></bcc>
+				<subject><![CDATA[Welcome to Inner Engineering 4-Day Program: Santa Barbara, USA April 7 - 10, 2016]]></subject>
+				<message><![CDATA[Dear {name7 (First):50.3},
+
+We look forward to having you at the upcoming Inner Engineering program. Please find information you’ll need below.
+
+<strong>Program Information :</strong>
+Program Name : 4 Day Inner Engineering program - Santa Barbara, USA April 7 - 10, 2016
+Program Date : April 7th - 10th, 2016
+
+Thursday, April 7, 2016 : Check-in 6.00 PM, Class from 6.30 PM - 9.30 PM
+Friday, April 8, 2016  : 6.30 PM - 9.30 PM
+Saturday, April 9, 2016 : 8.30 AM - 7.00 PM
+Sunday, April 10, 2016: 7.30 AM - 7.00 PM
+
+<strong>Venue : {location7:154}</strong>
+
+<a href="https://www.google.com/maps/?q={location7:154}">View on map</a>
+
+<strong>Total group payment: {Total:11}</strong>
+
+<strong><strong>Group </strong>Payment Confirmation #</strong> : <strong>{txn_id}</strong>
+
+<strong>Participant Information</strong>
+
+{name7 (First):50.3} {name7 (Last):50.6}
+Gender : {gender7:127}
+Phone: {phone7:68}   Email: {email7:62}
+Address : {address7 (Street Address):76.1}
+{address7 (City):76.3}, {address7 (State / Province):76.4}, {address7 (ZIP / Postal Code):76.5}, {address7 (Country):76.6}
+
+For your convenience, you can email us if there are any changes to the above information. This will make your check-in process faster on the day of the program. Your ID card is needed  to complete check-in.
+
+For group registrations, each participant registered will receive a separate confirmation email to the email id provided for them.
+
+<strong>General Information : </strong>
+<ul>
+	<li>Attendance for all sessions is required</li>
+	<li>Vegetarian lunch provided on Saturday. Vegetarian breakfast &amp; lunch provided on Sunday</li>
+	<li>Wear loose fitting and comfortable clothing</li>
+	<li>Bring a yoga mat or cloth-mat to sit on</li>
+	<li>You can bring a cushion if needed to sit comfortably on the floor</li>
+	<li>Please allow additional time for traffic delays, find parking and complete check-in formalities before the program begins</li>
+</ul>
+<div><strong>Terms &amp; Conditions : </strong></div>
+<ul>
+	<li>One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</li>
+	<li>I am at least 14 years or above.</li>
+</ul>
+<strong>Refund/Cancellation Policy:</strong>
+
+USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.
+50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.
+75% of the total  program fee paid amount will be deducted for cancellation from the program date and there after.
+Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.
+Refund processing time is 3-4 weeks.
+
+If you have any questions regarding your registration, feel free to contact us at santabarbara@ishausa.org or 805-399-2345
+
+Thank you,
+Inner Engineering Registration Team]]></message>
+				<from><![CDATA[santabarbara@ishausa.org]]></from>
+				<fromName><![CDATA[Inner Engineering]]></fromName>
+				<replyTo><![CDATA[santabarbara@ishausa.org]]></replyTo>
+				<conditionalLogic>
+					<actionType><![CDATA[show]]></actionType>
+					<logicType><![CDATA[any]]></logicType>
+					<rules>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</notification>
+			<notification id="52053292282c2">
+				<name><![CDATA[General - grp3]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<to><![CDATA[{email3:58},santabarbara@ishausa.org]]></to>
+				<toType><![CDATA[email]]></toType>
+				<bcc><![CDATA[santabarbara@ishausa.org]]></bcc>
+				<subject><![CDATA[Welcome to Inner Engineering 4-Day Program: Santa Barbara, USA April 7 - 10, 2016]]></subject>
+				<message><![CDATA[Dear {name3 (First):46.3},
+
+We look forward to having you at the upcoming Inner Engineering program. Please find information you’ll need below.
+
+<strong>Program Information :</strong>
+Program Name : 4 Day Inner Engineering program - Santa Barbara, USA April 7 - 10, 2016
+Program Date : April 7th - 10th, 2016
+
+Thursday, April 7, 2016 : Check-in 6.00 PM, Class from 6.30 PM - 9.30 PM
+Friday, April 8, 2016  : 6.30 PM - 9.30 PM
+Saturday, April 9, 2016 : 8.30 AM - 7.00 PM
+Sunday, April 10, 2016: 7.30 AM - 7.00 PM
+
+<strong>Venue : {location3:150}</strong>
+
+<a href="https://www.google.com/maps/?q={location3:150}">View on map</a>
+
+<strong>Total group payment: {Total:11}</strong>
+
+<strong><strong>Group </strong>Payment Confirmation #</strong> : <strong>{txn_id}</strong>
+
+<strong>Participant Information</strong>
+
+{name3 (First):46.3} {name3 (Last):46.6}
+Gender : {gender3:123}
+Phone: {phone3:64}  Email: {email3:58}
+Address :{address3 (Street Address):72.1}
+{address3 (City):72.3}, {address3 (State / Province):72.4}, {address3 (ZIP / Postal Code):72.5}, {address3 (Country):72.6}
+
+For your convenience, you can email us if there are any changes to the above information. This will make your check-in process faster on the day of the program. Your ID card is needed  to complete check-in.
+
+For group registrations, each participant registered will receive a separate confirmation email to the email id provided for them.
+
+<strong>General Information : </strong>
+<ul>
+	<li>Attendance for all sessions is required</li>
+	<li>Vegetarian lunch provided on Saturday. Vegetarian breakfast &amp; lunch provided on Sunday</li>
+	<li>Wear loose fitting and comfortable clothing</li>
+	<li>Bring a yoga mat or cloth-mat to sit on</li>
+	<li>You can bring a cushion if needed to sit comfortably on the floor</li>
+	<li>Please allow additional time for traffic delays, find parking and complete check-in formalities before the program begins</li>
+</ul>
+<strong>Terms &amp; Conditions : </strong>
+<ul>
+	<li>One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</li>
+	<li>I am at least 14 years or above.</li>
+</ul>
+<strong>Refund/Cancellation Policy:</strong>
+
+USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.
+50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.
+75% of the total  program fee paid amount will be deducted for cancellation from the program date and there after.
+Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.
+Refund processing time is 3-4 weeks.
+
+If you have any questions regarding your registration, feel free to contact us at santabarbara@ishausa.org or 805-399-2345
+
+Thank you,
+Inner Engineering Registration Team]]></message>
+				<from><![CDATA[santabarbara@ishausa.org]]></from>
+				<fromName><![CDATA[Inner Engineering]]></fromName>
+				<replyTo><![CDATA[santabarbara@ishausa.org]]></replyTo>
+				<conditionalLogic>
+					<actionType><![CDATA[show]]></actionType>
+					<logicType><![CDATA[any]]></logicType>
+					<rules>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 3]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 4]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 5]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 6]]></value>
+						</rule>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Group of 7]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</notification>
+		</notifications>
+	</form>
+</forms>

@@ -1,0 +1,42 @@
+event_title = Teacher Led IE - $city - $from_month 2016 - WoB
+
+salesforce_record_id = tlie_dallas_${from_date}_${from_month}_2016
+
+city = Dallas 
+
+center_email = dallas@ishausa.org
+center_phone = (469) 298 8963
+
+from_month = April
+to_month = April
+
+from_month_ordinal = 4
+to_month_ordinal = 4
+
+from_date = 7
+date2 = 8
+date3 = 9
+to_date = 10
+
+from_date_ordinal = 7th
+to_date_ordinal = 10th
+
+from_to = $from_month $from_date - $to_date
+from_to_with_ordinal = $from_month $from_date_ordinal - $to_date_ordinal
+
+thursday = $from_month $from_date
+friday = $from_month $date2
+saturday = $from_month $date3
+sunday = $from_month $to_date
+
+check_in = 6.00 PM
+thursday_time = 6.30 PM - 9.30 PM
+friday_time = 6.30 PM - 9.30 PM
+saturday_time = 8.30 AM - 7.00 PM
+sunday_time = 7.30 AM - 7.00 PM
+
+venue1 = Cascades Events Center, 5909 Stone Creek Dr, The Colony, TX 75056
+venue1_id = wob_cascadesevents_dallas_7_apr_2016
+
+venue2 = Holiday Inn Dallas-Richardson, 1655 N Central Expy, Richardson, TX 75080
+venue2_id = wob_holidayinn_dallas_7_apr_2016

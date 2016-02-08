@@ -1,0 +1,3 @@
+event_title = This references another $place_holder
+place_holder = This references the $date
+date = today

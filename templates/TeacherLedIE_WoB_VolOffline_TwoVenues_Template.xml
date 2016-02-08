@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.7.6">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Teacher Led IE - $city - Volunteer - Offline - $from_month 2016 - WoB]]></title>
+		<descriptionPlacement><![CDATA[above]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Register]]></text>
+			<conditionalLogic actionType="show" logicType="all">
+				<rules>
+					<rule fieldId="136" operator="isnot">
+						<value><![CDATA[Choose One]]></value>
+					</rule>
+					<rule fieldId="138" operator="isnot">
+						<value><![CDATA[Choose One]]></value>
+					</rule>
+				</rules>
+			</conditionalLogic>
+		</button>
+		<fields>
+			<field id="131" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<!--<font size="3", color="#FF7F00"><h4>TIMINGS:</h4></font>
+<ul style="padding-left: 30px;">
+           <p>
+             Thursday March 06: 6:30pm - 9:30pm<br>
+           Friday March 07: 6:30pm - 9:30pm<br>
+           Saturday March 08: 8:30am - 7:00pm<br>
+           Sunday Febraury 28: 7:30am - 7:00pm</p>
+
+
+<li>Vegetarian lunch provided on Saturday; Vegetarian breakfast &amp; lunch on Sunday.</li>
+	<li>Attendance for all sessions is required.</li>
+</ul>
+<br/>
+<font size="3", color="#FF7F00"><h4>VENUE:</h4></font>
+<ul style="padding-left: 30px;">
+           <p>Clarion Inn<br>
+           933. South Riverside Avenue<br>
+           Elmhurst, IL 60126.<br>
+           <a href="http://goo.gl/maps/3mYUJ">MAP</a> </p>
+</ul>
+<br/>
+<font size="3", color="#FF7F00"><h4>CONTACT:</h4></font>
+<ul style="padding-left: 30px;">
+           <p>Email: chicago@ishausa.org<br>
+           Phone: 630 233 ISHA (4742)</p>
+</ul>
+<br/>
+<font size="3", color="#FF7F00"><h4>PRICING:</h4></font>
+<ul style="padding-left: 30px;">
+<b><p>Program Fee: $325<br>
+Special price of $275 expires on March 06 2014</p></b>
+</ul>-->]]></content>
+				<label><![CDATA[HTML Block]]></label>
+			</field>
+			<field id="3" size="medium" type="select" enableChoiceValue="1">
+				<adminLabel><![CDATA[GeneralSeating]]></adminLabel>
+				<label><![CDATA[To begin registration choose the number of participants:]]></label>
+				<choices>
+					<choice isSelected="1">
+						<text><![CDATA[Single Participant]]></text>
+						<value><![CDATA[Myself]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="4" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[Detroit1]]></adminLabel>
+				<label><![CDATA[Inner Engineering Single Participant - $city, $from_month 2016]]></label>
+				<inputs>
+					<input id="4.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="4.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="4.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$0.00]]></basePrice>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="136" isRequired="1" size="medium" type="option" inputType="select" productField="4" enablePrice="1">
+				<label><![CDATA[Choose the type of registration]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Choose One]]></text>
+						<price><![CDATA[$0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Regular]]></text>
+						<price><![CDATA[$1.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Student]]></text>
+						<price><![CDATA[$1.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Senior]]></text>
+						<price><![CDATA[$1.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Hardship]]></text>
+						<price><![CDATA[$1.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Scholarship]]></text>
+						<price><![CDATA[$1.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="137" isRequired="1" size="medium" type="quantity" inputType="number" productField="4" numberFormat="decimal_dot">
+				<label><![CDATA[Price to be charged]]></label>
+			</field>
+			<field adminOnly="1" id="13" size="medium" type="text">
+				<adminLabel><![CDATA[Coupon Code]]></adminLabel>
+				<label><![CDATA[Coupon Code]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="138" isRequired="1" size="medium" type="select">
+				<label><![CDATA[Payment Type]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Choose One]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Cash]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Check]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="78" size="medium" type="total">
+				<label><![CDATA[Total]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="35" isRequired="1" size="medium" type="checkbox" enableChoiceValue="1">
+				<cssClass><![CDATA[gf_list_5col gf_list_height_25 ]]></cssClass>
+				<label><![CDATA[How did you hear about us?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Friend/Family]]></text>
+						<value><![CDATA[FF]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Online Ad]]></text>
+						<value><![CDATA[AD]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Online Search]]></text>
+						<value><![CDATA[SR]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Email]]></text>
+						<value><![CDATA[EB]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Isha Kriya]]></text>
+						<value><![CDATA[IK]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[News Article]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[YouTube Video]]></text>
+						<value><![CDATA[YT]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Isha Blog]]></text>
+						<value><![CDATA[BG]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Isha Presentation]]></text>
+						<value><![CDATA[IP]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Facebook]]></text>
+						<value><![CDATA[TB]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[E-Flyer]]></text>
+						<value><![CDATA[EF]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Blog TalkRadio]]></text>
+						<value><![CDATA[BR]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Other]]></text>
+						<value><![CDATA[OT]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="36" size="medium" type="checkbox" enableChoiceValue="1">
+				<cssClass><![CDATA[gf_list_3col gf_list_height_50]]></cssClass>
+				<label><![CDATA[Receive Email Communications]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Online Meditation with Sadhguru]]></text>
+						<value><![CDATA[ONLMED]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Sadhguru's daily message or message of the day.]]></text>
+						<value><![CDATA[MOTD]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Isha NewsLetter]]></text>
+						<value><![CDATA[NL]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="37" size="medium" type="checkbox" enableChoiceValue="1">
+				<label><![CDATA[Join our Online Community]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[YouTube Channel (featuring Sadhguru's talks, meditations, etc.)]]></text>
+						<value><![CDATA[YT]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Facebook (featuring quotes and articles of Sadhguru, Isha recipes, events, webinars, etc.)]]></text>
+						<value><![CDATA[FB]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="40" isRequired="1" size="medium" type="name">
+				<adminLabel><![CDATA[name1]]></adminLabel>
+				<label><![CDATA[Participant Name]]></label>
+				<inputs>
+					<input id="40.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="40.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="41" isRequired="1" noDuplicates="1" size="medium" type="email">
+				<adminLabel><![CDATA[email1]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Participant Email]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="42" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<adminLabel><![CDATA[phone1]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Participant Phone]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="43" isRequired="1" size="medium" type="address" addressType="international" hideAddress2="1">
+				<adminLabel><![CDATA[address1]]></adminLabel>
+				<label><![CDATA[Participant Address]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="43.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="43.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="43.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="43.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="43.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="43.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="121" isRequired="1" size="medium" type="radio">
+				<adminLabel><![CDATA[gender1]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half ]]></cssClass>
+				<label><![CDATA[Participant Gender]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Male]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Female]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="148" isRequired="1" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[location1]]></adminLabel>
+				<cssClass><![CDATA[gf_left_half ]]></cssClass>
+				<label><![CDATA[Participant Program Location]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[$venue1]]></text>
+						<value><![CDATA[$venue1_id]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[$venue2]]></text>
+						<value><![CDATA[$venue2_id]]></value>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field adminOnly="1" id="44" size="medium" type="radio" enableChoiceValue="1">
+				<adminLabel><![CDATA[credits1]]></adminLabel>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Participant Course Credits]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<value><![CDATA[CME]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<value><![CDATA[CEU]]></value>
+					</choice>
+					<choice isSelected="1">
+						<text><![CDATA[Not Applicable]]></text>
+						<value><![CDATA[NA]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="140" size="medium" type="product" inputType="singleproduct" disableQuantity="1">
+				<adminLabel><![CDATA[CME1]]></adminLabel>
+				<label><![CDATA[CME Processing Fee - $city, $from_month 2016]]></label>
+				<inputs>
+					<input id="140.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="140.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="140.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$50.00]]></basePrice>
+				<conditionalLogic actionType="hide" logicType="any">
+					<rules>
+						<rule fieldId="3" operator="is">
+							<value><![CDATA[Myself]]></value>
+						</rule>
+						<rule fieldId="44" operator="isnot">
+							<value><![CDATA[NA]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="129" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<div>
+	<strong>Terms &amp; Conditions :&nbsp;</strong></div>
+<ul>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:13px;">One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">I am at least 14 years and above.</span></span><br />
+		&nbsp;</li>
+</ul>
+<div>
+	<strong>Cancellation / Refund Policy:&nbsp;</strong></div>
+<ul>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">75% of the total program fee paid amount will be deducted for cancellation from the program date and there after.</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.&nbsp;</span></span></li>
+	<li>
+		<span style="font-family:arial,helvetica neue,helvetica,sans-serif;"><span style="font-size:12px;">Refund processing time is 3-4 weeks.</span></span></li>
+</ul><br />
+
+<u><strong><a href="http://www.innerengineering.com/SadhguruLive/terms-and-condition" target="_blank"><span style="color:#0000cd;">Click here to read the complete agreement.</span></a></strong></u>]]></content>
+				<cssClass><![CDATA[gf_scroll_text gf_list_height_25]]></cssClass>
+				<label><![CDATA[Terms]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="120" isRequired="1" size="medium" type="checkbox">
+				<label><![CDATA[Terms and condition agreement]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I agree to the above terms and conditions]]></text>
+					</choice>
+				</choices>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="3" operator="isnot">
+							<value></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="11" size="medium" type="total">
+				<label><![CDATA[Total]]></label>
+			</field>
+			<field id="12" isRequired="1" size="medium" type="creditcard">
+				<cssClass><![CDATA[gf_list_height_50]]></cssClass>
+				<label><![CDATA[Credit Card]]></label>
+				<inputs>
+					<input id="12.1">
+						<label><![CDATA[Card Number]]></label>
+					</input>
+					<input id="12.2">
+						<label><![CDATA[Expiration Date]]></label>
+					</input>
+					<input id="12.3">
+						<label><![CDATA[Security Code]]></label>
+					</input>
+					<input id="12.4">
+						<label><![CDATA[Card Type]]></label>
+					</input>
+					<input id="12.5">
+						<label><![CDATA[Cardholder's Name]]></label>
+					</input>
+				</inputs>
+				<creditCards>
+					<creditCard><![CDATA[amex]]></creditCard>
+					<creditCard><![CDATA[visa]]></creditCard>
+					<creditCard><![CDATA[discover]]></creditCard>
+					<creditCard><![CDATA[mastercard]]></creditCard>
+				</creditCards>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="138" operator="is">
+							<value><![CDATA[Credit Card]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="139" isRequired="1" size="medium" type="text">
+				<label><![CDATA[Check Number]]></label>
+				<conditionalLogic actionType="show" logicType="all">
+					<rules>
+						<rule fieldId="138" operator="is">
+							<value><![CDATA[Check]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</field>
+			<field id="134" size="medium" type="hidden">
+				<defaultValue><![CDATA[$from_month_ordinal/$from_date/2016]]></defaultValue>
+				<label><![CDATA[Start Date]]></label>
+			</field>
+			<field id="135" size="medium" type="hidden">
+				<defaultValue><![CDATA[$to_month_ordinal/$to_date/2016]]></defaultValue>
+				<label><![CDATA[End Date]]></label>
+			</field>
+			<field id="130" size="medium" type="hidden">
+				<defaultValue><![CDATA[$salesforce_record_id]]></defaultValue>
+				<label><![CDATA[$salesforce_record_id]]></label>
+			</field>
+		</fields>
+		<notifications>
+			<notification id="51e30447b6702">
+				<name><![CDATA[General-SingleReg]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<to><![CDATA[{email1:41},$center_email]]></to>
+				<toType><![CDATA[email]]></toType>
+				<bcc><![CDATA[$center_email]]></bcc>
+				<subject><![CDATA[Welcome to Inner Engineering 4-Day Program: $city, USA $from_to, 2016]]></subject>
+				<message><![CDATA[Dear {name1 (First):40.3},
+
+We look forward to having you at the upcoming Inner Engineering program. Please find information you’ll need below.
+
+<strong>Program Information :</strong>
+Program Name : 4 Day Inner Engineering program - $city, USA $from_to, 2016
+Program Date : $from_to_with_ordinal, 2016
+
+Thursday, $thursday, 2016 : Check-in $check_in, Class from $thursday_time
+Friday, $friday, 2016  : $friday_time
+Saturday, $saturday, 2016 : $saturday_time
+Sunday, $sunday, 2016: $sunday_time
+
+<strong>Venue : {location1:148}
+</strong>
+
+<a href="https://www.google.com/maps/?q={location1:148}">View on map</a>
+
+<strong>Total Paid Amount: {Total:11}</strong>
+
+<strong>Payment Type : <strong>{Payment Type:138}</strong></strong>
+
+<strong>Participant Information</strong>
+
+{name1 (First):40.3} {name1 (Last):40.6}
+Gender : {gender1:121}
+Phone: {phone1:42}  Email: {email1:41}
+Address : {address1 (Street Address):43.1}
+{address1 (City):43.3}, {address1 (State / Province):43.4}, {address1 (ZIP / Postal Code):43.5}, {address1 (Country):43.6}
+
+For your convenience, you can email us if there are any changes to the above information. This will make your check-in process faster on the day of the program. Your ID card is needed  to complete check-in.
+
+For group registrations, each participant registered will receive a separate confirmation email to the email id provided for them.
+
+<strong>General Information : </strong>
+<ul>
+	<li>Attendance for all sessions is required</li>
+	<li>Vegetarian lunch provided on Saturday. Vegetarian breakfast &amp; lunch provided on Sunday</li>
+	<li>Wear loose fitting and comfortable clothing</li>
+	<li>Bring a yoga mat or cloth-mat to sit on</li>
+	<li>You can bring a cushion if needed to sit comfortably on the floor</li>
+	<li>Please allow additional time for traffic delays, find parking and complete check-in formalities before the program begins</li>
+</ul>
+<strong>Terms &amp; Conditions : </strong>
+<ul>
+	<li>One must attend all sessions. If a portion or any of the sessions is missed, your admission in to the class will be at the discretion of the organizers.</li>
+	<li>I am at least 14 years or above.</li>
+</ul>
+<strong>Refund/Cancellation Policy:</strong>
+
+USD 25 processing fee will be deducted for all cancellations on or before 1 week from program date.
+50% of the total program fee paid amount will be deducted for cancellation within one week of the program date.
+75% of the total  program fee paid amount will be deducted for cancellation from the program date and there after.
+Our class capacity is limited, thus if a cancellation is necessary, please inform us as early as possible so that we can offer this opportunity to someone on our waiting list.
+Refund processing time is 3-4 weeks.
+
+If you have any questions regarding your registration, feel free to contact us at $center_email or $center_phone
+
+Thank you,
+Inner Engineering Registration Team]]></message>
+				<from><![CDATA[$center_email]]></from>
+				<fromName><![CDATA[Inner Engineering]]></fromName>
+				<replyTo><![CDATA[$center_email]]></replyTo>
+				<conditionalLogic>
+					<actionType><![CDATA[show]]></actionType>
+					<logicType><![CDATA[any]]></logicType>
+					<rules>
+						<rule>
+							<fieldId><![CDATA[3]]></fieldId>
+							<operator><![CDATA[is]]></operator>
+							<value><![CDATA[Myself]]></value>
+						</rule>
+					</rules>
+				</conditionalLogic>
+			</notification>
+		</notifications>
+		<confirmations>
+			<confirmation id="51df73871b9e2" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[<div style="text-align: center;">
+	<strong>You are successfully registered. Expect a confirmation email shortly for each registered participant.</strong></div>
+<div style="text-align: center;">
+	<br />
+	If you did not receive a payment confirmation email, please check your spam folder or contact <a href="mailto:$center_email" target="_top">$center_email</a>.</div>
+<div style="text-align: center;">
+	 </div>
+<div style="text-align: center;">
+	Regards,</div>
+<div style="text-align: center;">
+	Inner Engineering Registration Team</div>
+<div style="text-align: center;">
+	 </div>
+<div style="text-align: center;">
+	Click here to <a href="http://www.innerengineering.com/live" target="_self">Continue</a></div>]]></message>
+			</confirmation>
+		</confirmations>
+	</form>
+</forms>

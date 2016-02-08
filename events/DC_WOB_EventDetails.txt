@@ -1,0 +1,42 @@
+event_title = Teacher Led IE - $city - $from_month 2016 - WoB
+
+salesforce_record_id = tlie_dallas_${from_date}_${from_month}_2016
+
+city = Washington DC
+
+center_email = washingtondc@ishausa.org
+center_phone = (202) 695-3615
+
+from_month = March
+to_month = April
+
+from_month_ordinal = 3
+to_month_ordinal = 4
+
+from_date = 31
+date2 = 1
+date3 = 2
+to_date = 3
+
+from_date_ordinal = 31st
+to_date_ordinal = 3rd
+
+from_to = $from_month $from_date - $to_date
+from_to_with_ordinal = $from_month $from_date_ordinal - $to_date_ordinal
+
+thursday = $from_month $from_date
+friday = $from_month $date2
+saturday = $from_month $date3
+sunday = $from_month $to_date
+
+check_in = 6.00 PM
+thursday_time = 6.30 PM - 9.30 PM
+friday_time = 6.30 PM - 9.30 PM
+saturday_time = 8.30 AM - 7.00 PM
+sunday_time = 7.30 AM - 7.00 PM
+
+venue1 = Patton Hall 46700 Middlefield Drive, Sterling, VA, 20165
+venue1_id = wob_pattonhall_dc_31_mar_2016
+
+venue2 = The Hindu Temple10001 Riggs Road, Adelphi, MD 20783
+venue2_id = wob_hindutemple_dc_31_mar_2016

@@ -1,0 +1,39 @@
+event_title = Teacher Led IE - $city - $from_month 2016 - WoB
+
+salesforce_record_id = tlie_newengland_${from_date}_${from_month}_2016
+
+city = New England
+
+center_email = newengland@ishausa.org
+center_phone = 617-396-4742
+
+from_month = March
+to_month = March
+
+from_month_ordinal = 3
+to_month_ordinal = 3
+
+from_date = 10
+date2 = 11
+date3 = 12
+to_date = 13
+
+from_date_ordinal = 10th
+to_date_ordinal = 13th
+
+from_to = $from_month $from_date - $to_date
+from_to_with_ordinal = $from_month $from_date_ordinal - $to_date_ordinal
+
+thursday = $from_month $from_date
+friday = $from_month $date2
+saturday = $from_month $date3
+sunday = $from_month $to_date
+
+check_in = 6.15 PM
+thursday_time = 6.45 PM - 9.45 PM
+friday_time = 6.45 PM - 9.45 PM
+saturday_time = 8.30 AM - 7.00 PM
+sunday_time = 7.30 AM - 7.00 PM
+
+venue1 = Arlington Masonic Lodge, 19 Academy Street, Arlington, MA
+venue1_id = wob_arlingtonmasonic_newengland_10_mar_2016
