@@ -1027,14 +1027,14 @@ Special price of $275 expires on March 06 2014</p></b>
 			<field adminOnly="1" id="44" size="medium" type="radio" enableChoiceValue="1">
 				<adminLabel><![CDATA[credits1]]></adminLabel>
 				<cssClass><![CDATA[gf_right_half]]></cssClass>
-				<label><![CDATA[Participant Course Credits]]></label>
+				<label><![CDATA[Would you like to receive continuing education credits for this course?]]></label>
 				<choices>
 					<choice>
-						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<text><![CDATA[26 AMA PRA Category 1 CME credits]]></text>
 						<value><![CDATA[CME]]></value>
 					</choice>
 					<choice>
-						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<text><![CDATA[19.5 NCBTMB CEs for massage therapists]]></text>
 						<value><![CDATA[CEU]]></value>
 					</choice>
 					<choice isSelected="1">
@@ -1065,10 +1065,10 @@ Special price of $275 expires on March 06 2014</p></b>
 					</input>
 				</inputs>
 				<basePrice><![CDATA[$50.00]]></basePrice>
-				<conditionalLogic actionType="hide" logicType="any">
+				<conditionalLogic actionType="show" logicType="all">
 					<rules>
-						<rule fieldId="44" operator="isnot">
-							<value><![CDATA[NA]]></value>
+						<rule fieldId="44" operator="is">
+							<value><![CDATA[CME]]></value>
 						</rule>
 						<rule fieldId="3" operator="isnot">
 							<value></value>
@@ -1281,14 +1281,14 @@ Special price of $275 expires on March 06 2014</p></b>
 			<field adminOnly="1" id="51" size="medium" type="radio" enableChoiceValue="1">
 				<adminLabel><![CDATA[credits2]]></adminLabel>
 				<cssClass><![CDATA[gf_right_half]]></cssClass>
-				<label><![CDATA[2nd Participant Course Credits]]></label>
+				<label><![CDATA[2nd Would you like to receive continuing education credits for this course?]]></label>
 				<choices>
 					<choice>
-						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<text><![CDATA[26 AMA PRA Category 1 CME credits]]></text>
 						<value><![CDATA[CME]]></value>
 					</choice>
 					<choice>
-						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<text><![CDATA[19.5 NCBTMB CEs for massage therapists]]></text>
 						<value><![CDATA[CEU]]></value>
 					</choice>
 					<choice isSelected="1">
@@ -1334,10 +1334,10 @@ Special price of $275 expires on March 06 2014</p></b>
 					</input>
 				</inputs>
 				<basePrice><![CDATA[$50.00]]></basePrice>
-				<conditionalLogic actionType="hide" logicType="any">
+				<conditionalLogic actionType="show" logicType="all">
 					<rules>
-						<rule fieldId="51" operator="isnot">
-							<value><![CDATA[NA]]></value>
+						<rule fieldId="51" operator="is">
+							<value><![CDATA[CME]]></value>
 						</rule>
 						<rule fieldId="3" operator="isnot">
 							<value><![CDATA[Myself]]></value>
@@ -1535,14 +1535,14 @@ Special price of $275 expires on March 06 2014</p></b>
 			<field adminOnly="1" id="52" size="medium" type="radio" enableChoiceValue="1">
 				<adminLabel><![CDATA[credits3]]></adminLabel>
 				<cssClass><![CDATA[gf_right_half]]></cssClass>
-				<label><![CDATA[3rd Participant Course Credits]]></label>
+				<label><![CDATA[3rd Would you like to receive continuing education credits for this course?]]></label>
 				<choices>
 					<choice>
-						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<text><![CDATA[26 AMA PRA Category 1 CME credits]]></text>
 						<value><![CDATA[CME]]></value>
 					</choice>
 					<choice>
-						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<text><![CDATA[19.5 NCBTMB CEs for massage therapists]]></text>
 						<value><![CDATA[CEU]]></value>
 					</choice>
 					<choice isSelected="1">
@@ -1585,10 +1585,10 @@ Special price of $275 expires on March 06 2014</p></b>
 					</input>
 				</inputs>
 				<basePrice><![CDATA[$50.00]]></basePrice>
-				<conditionalLogic actionType="hide" logicType="any">
+				<conditionalLogic actionType="show" logicType="all">
 					<rules>
-						<rule fieldId="52" operator="isnot">
-							<value><![CDATA[NA]]></value>
+						<rule fieldId="52" operator="is">
+							<value><![CDATA[CME]]></value>
 						</rule>
 						<rule fieldId="3" operator="isnot">
 							<value></value>
@@ -1771,14 +1771,14 @@ Special price of $275 expires on March 06 2014</p></b>
 			<field adminOnly="1" id="53" size="medium" type="radio" enableChoiceValue="1">
 				<adminLabel><![CDATA[credits4]]></adminLabel>
 				<cssClass><![CDATA[gf_right_half]]></cssClass>
-				<label><![CDATA[4th Participant Course Credits]]></label>
+				<label><![CDATA[4th Would you like to receive continuing education credits for this course?]]></label>
 				<choices>
 					<choice>
-						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<text><![CDATA[26 AMA PRA Category 1 CME credits]]></text>
 						<value><![CDATA[CME]]></value>
 					</choice>
 					<choice>
-						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<text><![CDATA[19.5 NCBTMB CEs for massage therapists]]></text>
 						<value><![CDATA[CEU]]></value>
 					</choice>
 					<choice isSelected="1">
@@ -1818,10 +1818,10 @@ Special price of $275 expires on March 06 2014</p></b>
 					</input>
 				</inputs>
 				<basePrice><![CDATA[$50.00]]></basePrice>
-				<conditionalLogic actionType="hide" logicType="any">
+				<conditionalLogic actionType="show" logicType="all">
 					<rules>
-						<rule fieldId="53" operator="isnot">
-							<value><![CDATA[NA]]></value>
+						<rule fieldId="53" operator="is">
+							<value><![CDATA[CME]]></value>
 						</rule>
 						<rule fieldId="3" operator="isnot">
 							<value></value>
@@ -1989,14 +1989,14 @@ Special price of $275 expires on March 06 2014</p></b>
 			<field adminOnly="1" id="54" size="medium" type="radio" enableChoiceValue="1">
 				<adminLabel><![CDATA[credits5]]></adminLabel>
 				<cssClass><![CDATA[gf_right_half]]></cssClass>
-				<label><![CDATA[5th Participant Course Credits]]></label>
+				<label><![CDATA[5th Would you like to receive continuing education credits for this course?]]></label>
 				<choices>
 					<choice>
-						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<text><![CDATA[26 AMA PRA Category 1 CME credits]]></text>
 						<value><![CDATA[CME]]></value>
 					</choice>
 					<choice>
-						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<text><![CDATA[19.5 NCBTMB CEs for massage therapists]]></text>
 						<value><![CDATA[CEU]]></value>
 					</choice>
 					<choice isSelected="1">
@@ -2033,10 +2033,10 @@ Special price of $275 expires on March 06 2014</p></b>
 					</input>
 				</inputs>
 				<basePrice><![CDATA[$50.00]]></basePrice>
-				<conditionalLogic actionType="hide" logicType="any">
+				<conditionalLogic actionType="show" logicType="all">
 					<rules>
-						<rule fieldId="54" operator="isnot">
-							<value><![CDATA[NA]]></value>
+						<rule fieldId="54" operator="is">
+							<value><![CDATA[CME]]></value>
 						</rule>
 						<rule fieldId="3" operator="isnot">
 							<value></value>
@@ -2189,14 +2189,14 @@ Special price of $275 expires on March 06 2014</p></b>
 			<field adminOnly="1" id="55" size="medium" type="radio" enableChoiceValue="1">
 				<adminLabel><![CDATA[credits6]]></adminLabel>
 				<cssClass><![CDATA[gf_right_half]]></cssClass>
-				<label><![CDATA[6th Participant Course Credits]]></label>
+				<label><![CDATA[6th Would you like to receive continuing education credits for this course?]]></label>
 				<choices>
 					<choice>
-						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<text><![CDATA[26 AMA PRA Category 1 CME credits]]></text>
 						<value><![CDATA[CME]]></value>
 					</choice>
 					<choice>
-						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<text><![CDATA[19.5 NCBTMB CEs for massage therapists]]></text>
 						<value><![CDATA[CEU]]></value>
 					</choice>
 					<choice isSelected="1">
@@ -2230,10 +2230,10 @@ Special price of $275 expires on March 06 2014</p></b>
 					</input>
 				</inputs>
 				<basePrice><![CDATA[$50.00]]></basePrice>
-				<conditionalLogic actionType="hide" logicType="any">
+				<conditionalLogic actionType="show" logicType="all">
 					<rules>
-						<rule fieldId="55" operator="isnot">
-							<value><![CDATA[NA]]></value>
+						<rule fieldId="55" operator="is">
+							<value><![CDATA[CME]]></value>
 						</rule>
 						<rule fieldId="3" operator="isnot">
 							<value></value>
@@ -2371,14 +2371,14 @@ Special price of $275 expires on March 06 2014</p></b>
 			<field adminOnly="1" id="56" size="medium" type="radio" enableChoiceValue="1">
 				<adminLabel><![CDATA[credits7]]></adminLabel>
 				<cssClass><![CDATA[gf_right_half]]></cssClass>
-				<label><![CDATA[7th Participant Course Credits]]></label>
+				<label><![CDATA[7th Would you like to receive continuing education credits for this course?]]></label>
 				<choices>
 					<choice>
-						<text><![CDATA[I'm a physician/ Nurse/ PA/ NP wanting CME credits]]></text>
+						<text><![CDATA[26 AMA PRA Category 1 CME credits]]></text>
 						<value><![CDATA[CME]]></value>
 					</choice>
 					<choice>
-						<text><![CDATA[I'm a MFT and LCSW in the state of California wanting CME credits]]></text>
+						<text><![CDATA[19.5 NCBTMB CEs for massage therapists]]></text>
 						<value><![CDATA[CEU]]></value>
 					</choice>
 					<choice isSelected="1">
@@ -2409,10 +2409,10 @@ Special price of $275 expires on March 06 2014</p></b>
 					</input>
 				</inputs>
 				<basePrice><![CDATA[$50.00]]></basePrice>
-				<conditionalLogic actionType="hide" logicType="any">
+				<conditionalLogic actionType="show" logicType="all">
 					<rules>
-						<rule fieldId="56" operator="isnot">
-							<value><![CDATA[NA]]></value>
+						<rule fieldId="56" operator="is">
+							<value><![CDATA[CME]]></value>
 						</rule>
 						<rule fieldId="3" operator="isnot">
 							<value></value>
